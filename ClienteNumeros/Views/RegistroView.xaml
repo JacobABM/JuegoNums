@@ -1,0 +1,15 @@
+﻿<Window x:Class="ClienteNumeros.Views.RegistroView"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ClienteNumeros.Views"
+        xmlns:mvvm="clr-namespace:ClienteNumeros.ViewModels"
+        mc:Ignorable="d"
+        Title="RegistroView" Height="325" Width="700" Background="#A2CDCD" >
+    <Window.DataContext>
+        <mvvm:ClienteViewModel></mvvm:ClienteViewModel>
+    </Window.DataContext>
+
+    <ContentControl Content="{Binding Control}"></ContentControl>
+</Window>

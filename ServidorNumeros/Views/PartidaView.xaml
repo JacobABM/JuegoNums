@@ -1,0 +1,14 @@
+﻿<UserControl x:Class="ServidorNumeros.Views.PartidaView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:ServidorNumeros.Views"
+             mc:Ignorable="d" 
+             d:DesignHeight="450" d:DesignWidth="750">
+    <Grid>
+
+        <TextBlock FontSize="45" HorizontalAlignment="Center" Margin="60,100,60,0" Foreground="White" FontWeight="DemiBold">&#x271c; ¿Sabes Sumar? &#x271c;</TextBlock>
+        <Button Margin="0,200,0,0" Height="50" Width="170" BorderThickness="0" FontSize="40" Padding="-3" Background="#D57E7E" Foreground="White" Command="{Binding IniciarCommand}">&#x25b6;Start</Button>
+    </Grid>
+</UserControl>
